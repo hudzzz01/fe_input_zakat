@@ -1,0 +1,10 @@
+#app{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.router-link-exact-active{
+    font-weight: bold;
+}
