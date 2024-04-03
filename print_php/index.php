@@ -17,7 +17,7 @@
 		</tr>
 		<?php 
 		// koneksi database
-		$koneksi = mysqli_connect("localhost","root","","app_masjid");
+		$koneksi = mysqli_connect("localhost","username","pass","dbnamae");
 
 		if ($koneksi->connect_error) {
 			die("Connection failed: " . $koneksi->connect_error);
@@ -54,8 +54,10 @@
 									Jamaah.id
 								");
 
-		//$koneksi2 = new mysqli_connect("localhost","root","","app_masjid");
-		//$data2 = mysqli_connect($koneksi2,"select * from Jamaah");
+		//$koneksi2 = new mysqli_connect("localhost","","","");
+		//$data2 = 
+		
+		mysqli_connect($koneksi2,"select * from Jamaah");
 
 		$no = 1;
 		while($d = mysqli_fetch_array($data)){
